@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — AdWall Remover</title>
+  <style>
+    :root {
+      --bg: #1e1e2e;
+      --surface: #2a2a3e;
+      --border: #3a3a52;
+      --text: #f0f0f5;
+      --text-dim: #b8b8c8;
+      --blue: #5b5bff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    main { max-width: 720px; margin: 0 auto; }
+    .lang-switch { display: flex; gap: 0.5rem; margin-bottom: 1.75rem; }
+    .lang-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.45rem 0.9rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.15s;
+    }
+    .lang-btn:hover { color: var(--text); }
+    .lang-btn.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+    h1 { font-size: 1.9rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .updated { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 0.6rem; color: var(--blue); }
+    p { margin-bottom: 0.9rem; color: var(--text); }
+    ul { margin: 0 0 0.9rem 1.3rem; }
+    li { margin-bottom: 0.4rem; }
+    .highlight {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      margin: 1.25rem 0;
+    }
+    a { color: var(--blue); }
+    footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--text-dim); font-size: 0.85rem; }
+    .lang-section { display: none; }
+    .lang-section.visible { display: block; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="en" onclick="setLang('en')">English</button>
+      <button class="lang-btn" data-lang="pl" onclick="setLang('pl')">Polski</button>
+    </div>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <section class="lang-section visible" id="lang-en">
+      <h1>Privacy Policy</h1>
+      <p class="updated">AdWall Remover · Last updated: June 28, 2026</p>
+
+      <div class="highlight">
+        <p style="margin:0;"><strong>In short:</strong> AdWall Remover does not collect, store, or transmit any personal data. It makes no network connections of its own. Everything it stores stays on your device.</p>
+      </div>
+
+      <h2>What this extension does</h2>
+      <p>AdWall Remover detects and removes anti-adblock overlays ("walls") on web pages and restores page scrolling that those overlays may have locked. All of this processing happens locally in your browser.</p>
+
+      <h2>Data we collect</h2>
+      <p>None. AdWall Remover does not collect, request, or receive any personal or identifying information. It does not track your browsing, your identity, or your activity, and it does not use analytics or telemetry of any kind.</p>
+
+      <h2>Data stored locally on your device</h2>
+      <p>The extension uses your browser's local storage to keep two small pieces of information, purely so the extension can function:</p>
+      <ul>
+        <li><strong>A counter</strong> of how many walls have been removed (shown in the extension's popup), kept per tab and as a running total.</li>
+        <li><strong>Your list of disabled sites</strong> — the domains where you have switched the extension off using the per-site toggle.</li>
+      </ul>
+      <p>This information never leaves your browser. It is not sent to us or to any third party, because the extension does not transmit data anywhere. You can erase it at any time by removing the extension or clearing its storage in your browser.</p>
+
+      <h2>Network connections</h2>
+      <p>AdWall Remover does not make any network requests. It does not contact any server, including ours, and it has no external dependencies that load at runtime.</p>
+
+      <h2>Permissions</h2>
+      <p>The extension requests a single browser permission, <strong>storage</strong>, which is used only to save the local data described above (the wall counter and your list of disabled sites). It is never used to collect or transmit information.</p>
+
+      <h2>Third parties</h2>
+      <p>AdWall Remover does not share any data with third parties, because it does not collect or transmit any data in the first place.</p>
+
+      <h2>Children's privacy</h2>
+      <p>Because the extension collects no personal data from anyone, it likewise collects no data from children.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If this policy ever changes, the updated version will be published on this page with a revised "Last updated" date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent to: <strong>lukasz_bl@hotmail.com</strong></p>
+    </section>
+
+    <!-- ===================== POLSKI ===================== -->
+    <section class="lang-section" id="lang-pl">
+      <h1>Polityka prywatności</h1>
+      <p class="updated">AdWall Remover · Ostatnia aktualizacja: 28 czerwca 2026</p>
+
+      <div class="highlight">
+        <p style="margin:0;"><strong>W skrócie:</strong> AdWall Remover nie zbiera, nie przechowuje ani nie przesyła żadnych danych osobowych. Nie nawiązuje żadnych połączeń sieciowych. Wszystko, co przechowuje, pozostaje na Twoim urządzeniu.</p>
+      </div>
+
+      <h2>Co robi to rozszerzenie</h2>
+      <p>AdWall Remover wykrywa i usuwa nakładki anty-adblockowe ("ściany") na stronach internetowych oraz przywraca przewijanie strony, które te nakładki mogły zablokować. Całe przetwarzanie odbywa się lokalnie w Twojej przeglądarce.</p>
+
+      <h2>Jakie dane zbieramy</h2>
+      <p>Żadnych. AdWall Remover nie zbiera, nie żąda ani nie otrzymuje żadnych danych osobowych ani identyfikujących. Nie śledzi Twojego przeglądania, tożsamości ani aktywności, nie używa też żadnej analityki ani telemetrii.</p>
+
+      <h2>Dane przechowywane lokalnie na Twoim urządzeniu</h2>
+      <p>Rozszerzenie korzysta z lokalnej pamięci przeglądarki, aby przechowywać dwie niewielkie informacje, wyłącznie po to, by mogło działać:</p>
+      <ul>
+        <li><strong>Licznik</strong> usuniętych ścian (wyświetlany w okienku rozszerzenia), prowadzony osobno dla każdej karty oraz jako suma łączna.</li>
+        <li><strong>Listę wyłączonych stron</strong> — domeny, na których wyłączyłeś rozszerzenie za pomocą przełącznika.</li>
+      </ul>
+      <p>Te informacje nigdy nie opuszczają Twojej przeglądarki. Nie są wysyłane do nas ani do żadnej strony trzeciej, ponieważ rozszerzenie nigdzie nie przesyła danych. Możesz je usunąć w dowolnej chwili, odinstalowując rozszerzenie lub czyszcząc jego pamięć w przeglądarce.</p>
+
+      <h2>Połączenia sieciowe</h2>
+      <p>AdWall Remover nie wykonuje żadnych żądań sieciowych. Nie kontaktuje się z żadnym serwerem, w tym naszym, i nie ma zewnętrznych zależności ładowanych w trakcie działania.</p>
+
+      <h2>Uprawnienia</h2>
+      <p>Rozszerzenie prosi o jedno uprawnienie przeglądarki — <strong>storage</strong> — używane wyłącznie do zapisu opisanych powyżej danych lokalnych (licznik ścian oraz lista wyłączonych stron). Nigdy nie służy do zbierania ani przesyłania informacji.</p>
+
+      <h2>Strony trzecie</h2>
+      <p>AdWall Remover nie udostępnia żadnych danych stronom trzecim, ponieważ w ogóle żadnych danych nie zbiera ani nie przesyła.</p>
+
+      <h2>Prywatność dzieci</h2>
+      <p>Ponieważ rozszerzenie nie zbiera danych osobowych od nikogo, nie zbiera również żadnych danych od dzieci.</p>
+
+      <h2>Zmiany w tej polityce</h2>
+      <p>Jeśli ta polityka kiedykolwiek się zmieni, zaktualizowana wersja zostanie opublikowana na tej stronie ze zmienioną datą "Ostatnia aktualizacja".</p>
+
+      <h2>Kontakt</h2>
+      <p>Pytania dotyczące tej polityki można kierować na adres: <strong>lukasz_bl@hotmail.com</strong></p>
+    </section>
+
+    <footer>
+      © 2026 Łukasz Blum · AdWall Remover
+    </footer>
+  </main>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll(".lang-section").forEach(s => s.classList.remove("visible"));
+      document.getElementById("lang-" + lang).classList.add("visible");
+      document.querySelectorAll(".lang-btn").forEach(b => b.classList.remove("active"));
+      document.querySelector('.lang-btn[data-lang="' + lang + '"]').classList.add("active");
+      document.documentElement.lang = lang;
+    }
+    // Optional: open in Polish if the browser prefers Polish
+    if ((navigator.language || "").toLowerCase().startsWith("pl")) {
+      setLang("pl");
+    }
+  </script>
+</body>
+</html>
